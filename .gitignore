@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv/
+venv/
+conda-env/
+
+# Data, models, and generated artifacts
+data/*
+!data/README.md
+!data/Cdataset/
+!data/Cdataset/.gitkeep
+!data/Fdataset/
+!data/Fdataset/.gitkeep
+!data/Bdataset/
+!data/Bdataset/.gitkeep
+!data/Rdataset/
+!data/Rdataset/.gitkeep
+results/
+logs/
+outputs/
+checkpoints/
+*.mat
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.pickle
+*.csv
+*.xlsx
+
+# Keep curated docs/assets
+!docs/*.md
+!assets/Figure1.pdf
