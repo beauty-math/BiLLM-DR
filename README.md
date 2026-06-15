@@ -37,11 +37,9 @@ BiLLM-DR/
 |-- assets/                           # Workflow figure
 |-- docs/                             # Highlights and notes
 |-- main.py                           # Main entry for Cdataset/Fdataset
-|-- Bdataset.py                       # Entry for Bdataset/Rdataset-style CSV datasets
 |-- run_ablations.py                  # Ablation experiments
 |-- parameter_sensitivity.py          # Parameter sensitivity experiments
 |-- random_seed_stability.py          # Random-seed stability experiments
-|-- topk_metrics_from_predictions.py  # Top-K ranking metrics
 `-- requirements.txt
 ```
 
